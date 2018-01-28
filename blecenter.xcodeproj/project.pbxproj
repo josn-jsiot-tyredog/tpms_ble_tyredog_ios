@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		062BC9F7201DB3010029F9E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062BC9F6201DB3010029F9E7 /* AppDelegate.swift */; };
+		062BC9F9201DB3010029F9E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062BC9F8201DB3010029F9E7 /* ViewController.swift */; };
+		062BC9FC201DB3010029F9E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062BC9FA201DB3010029F9E7 /* Main.storyboard */; };
+		062BC9FE201DB3010029F9E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 062BC9FD201DB3010029F9E7 /* Assets.xcassets */; };
+		062BCA01201DB3010029F9E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 062BC9FF201DB3010029F9E7 /* LaunchScreen.storyboard */; };
+		062BCA0C201DB3010029F9E7 /* blecenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062BCA0B201DB3010029F9E7 /* blecenterTests.swift */; };
+		062BCA17201DB3020029F9E7 /* blecenterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 062BCA16201DB3020029F9E7 /* blecenterUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		062BCA08201DB3010029F9E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062BC9EB201DB3010029F9E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062BC9F2201DB3010029F9E7;
+			remoteInfo = blecenter;
+		};
+		062BCA13201DB3020029F9E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 062BC9EB201DB3010029F9E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 062BC9F2201DB3010029F9E7;
+			remoteInfo = blecenter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		062BC9F3201DB3010029F9E7 /* blecenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = blecenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		062BC9F6201DB3010029F9E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		062BC9F8201DB3010029F9E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		062BC9FB201DB3010029F9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		062BC9FD201DB3010029F9E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		062BCA00201DB3010029F9E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		062BCA02201DB3010029F9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062BCA07201DB3010029F9E7 /* blecenterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blecenterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062BCA0B201DB3010029F9E7 /* blecenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blecenterTests.swift; sourceTree = "<group>"; };
+		062BCA0D201DB3020029F9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062BCA12201DB3020029F9E7 /* blecenterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = blecenterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		062BCA16201DB3020029F9E7 /* blecenterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = blecenterUITests.swift; sourceTree = "<group>"; };
+		062BCA18201DB3020029F9E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		062BC9F0201DB3010029F9E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA04201DB3010029F9E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA0F201DB3020029F9E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062BC9EA201DB3010029F9E7 = {
+			isa = PBXGroup;
+			children = (
+				062BC9F5201DB3010029F9E7 /* blecenter */,
+				062BCA0A201DB3010029F9E7 /* blecenterTests */,
+				062BCA15201DB3020029F9E7 /* blecenterUITests */,
+				062BC9F4201DB3010029F9E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		062BC9F4201DB3010029F9E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				062BC9F3201DB3010029F9E7 /* blecenter.app */,
+				062BCA07201DB3010029F9E7 /* blecenterTests.xctest */,
+				062BCA12201DB3020029F9E7 /* blecenterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		062BC9F5201DB3010029F9E7 /* blecenter */ = {
+			isa = PBXGroup;
+			children = (
+				062BC9F6201DB3010029F9E7 /* AppDelegate.swift */,
+				062BC9F8201DB3010029F9E7 /* ViewController.swift */,
+				062BC9FA201DB3010029F9E7 /* Main.storyboard */,
+				062BC9FD201DB3010029F9E7 /* Assets.xcassets */,
+				062BC9FF201DB3010029F9E7 /* LaunchScreen.storyboard */,
+				062BCA02201DB3010029F9E7 /* Info.plist */,
+			);
+			path = blecenter;
+			sourceTree = "<group>";
+		};
+		062BCA0A201DB3010029F9E7 /* blecenterTests */ = {
+			isa = PBXGroup;
+			children = (
+				062BCA0B201DB3010029F9E7 /* blecenterTests.swift */,
+				062BCA0D201DB3020029F9E7 /* Info.plist */,
+			);
+			path = blecenterTests;
+			sourceTree = "<group>";
+		};
+		062BCA15201DB3020029F9E7 /* blecenterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				062BCA16201DB3020029F9E7 /* blecenterUITests.swift */,
+				062BCA18201DB3020029F9E7 /* Info.plist */,
+			);
+			path = blecenterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		062BC9F2201DB3010029F9E7 /* blecenter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062BCA1B201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenter" */;
+			buildPhases = (
+				062BC9EF201DB3010029F9E7 /* Sources */,
+				062BC9F0201DB3010029F9E7 /* Frameworks */,
+				062BC9F1201DB3010029F9E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = blecenter;
+			productName = blecenter;
+			productReference = 062BC9F3201DB3010029F9E7 /* blecenter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		062BCA06201DB3010029F9E7 /* blecenterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062BCA1E201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenterTests" */;
+			buildPhases = (
+				062BCA03201DB3010029F9E7 /* Sources */,
+				062BCA04201DB3010029F9E7 /* Frameworks */,
+				062BCA05201DB3010029F9E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062BCA09201DB3010029F9E7 /* PBXTargetDependency */,
+			);
+			name = blecenterTests;
+			productName = blecenterTests;
+			productReference = 062BCA07201DB3010029F9E7 /* blecenterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		062BCA11201DB3020029F9E7 /* blecenterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 062BCA21201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenterUITests" */;
+			buildPhases = (
+				062BCA0E201DB3020029F9E7 /* Sources */,
+				062BCA0F201DB3020029F9E7 /* Frameworks */,
+				062BCA10201DB3020029F9E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				062BCA14201DB3020029F9E7 /* PBXTargetDependency */,
+			);
+			name = blecenterUITests;
+			productName = blecenterUITests;
+			productReference = 062BCA12201DB3020029F9E7 /* blecenterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		062BC9EB201DB3010029F9E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = JOSN;
+				TargetAttributes = {
+					062BC9F2201DB3010029F9E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					062BCA06201DB3010029F9E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 062BC9F2201DB3010029F9E7;
+					};
+					062BCA11201DB3020029F9E7 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 062BC9F2201DB3010029F9E7;
+					};
+				};
+			};
+			buildConfigurationList = 062BC9EE201DB3010029F9E7 /* Build configuration list for PBXProject "blecenter" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 062BC9EA201DB3010029F9E7;
+			productRefGroup = 062BC9F4201DB3010029F9E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				062BC9F2201DB3010029F9E7 /* blecenter */,
+				062BCA06201DB3010029F9E7 /* blecenterTests */,
+				062BCA11201DB3020029F9E7 /* blecenterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		062BC9F1201DB3010029F9E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062BCA01201DB3010029F9E7 /* LaunchScreen.storyboard in Resources */,
+				062BC9FE201DB3010029F9E7 /* Assets.xcassets in Resources */,
+				062BC9FC201DB3010029F9E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA05201DB3010029F9E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA10201DB3020029F9E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		062BC9EF201DB3010029F9E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062BC9F9201DB3010029F9E7 /* ViewController.swift in Sources */,
+				062BC9F7201DB3010029F9E7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA03201DB3010029F9E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062BCA0C201DB3010029F9E7 /* blecenterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		062BCA0E201DB3020029F9E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				062BCA17201DB3020029F9E7 /* blecenterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		062BCA09201DB3010029F9E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062BC9F2201DB3010029F9E7 /* blecenter */;
+			targetProxy = 062BCA08201DB3010029F9E7 /* PBXContainerItemProxy */;
+		};
+		062BCA14201DB3020029F9E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 062BC9F2201DB3010029F9E7 /* blecenter */;
+			targetProxy = 062BCA13201DB3020029F9E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		062BC9FA201DB3010029F9E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062BC9FB201DB3010029F9E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		062BC9FF201DB3010029F9E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				062BCA00201DB3010029F9E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		062BCA19201DB3020029F9E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		062BCA1A201DB3020029F9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		062BCA1C201DB3020029F9E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		062BCA1D201DB3020029F9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		062BCA1F201DB3020029F9E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blecenter.app/blecenter";
+			};
+			name = Debug;
+		};
+		062BCA20201DB3020029F9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/blecenter.app/blecenter";
+			};
+			name = Release;
+		};
+		062BCA22201DB3020029F9E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blecenter;
+			};
+			name = Debug;
+		};
+		062BCA23201DB3020029F9E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LAFGRWV696;
+				INFOPLIST_FILE = blecenterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.josn.blecenterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = blecenter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		062BC9EE201DB3010029F9E7 /* Build configuration list for PBXProject "blecenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062BCA19201DB3020029F9E7 /* Debug */,
+				062BCA1A201DB3020029F9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062BCA1B201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062BCA1C201DB3020029F9E7 /* Debug */,
+				062BCA1D201DB3020029F9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062BCA1E201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062BCA1F201DB3020029F9E7 /* Debug */,
+				062BCA20201DB3020029F9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		062BCA21201DB3020029F9E7 /* Build configuration list for PBXNativeTarget "blecenterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				062BCA22201DB3020029F9E7 /* Debug */,
+				062BCA23201DB3020029F9E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 062BC9EB201DB3010029F9E7 /* Project object */;
+}
