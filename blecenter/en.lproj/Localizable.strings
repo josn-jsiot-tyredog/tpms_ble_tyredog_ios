@@ -1,0 +1,71 @@
+/* 
+  Localizable.strings
+  blecenter
+
+  Created by JOSN on 2018/5/16.
+  Copyright © 2018年 JOSN. All rights reserved.
+*/
+
+
+
+
+
+"OK" = "  OK  ";
+
+
+"module_power" = "Please connect module to power supply !";
+"module_connected" = "Module Connected !";
+"module_disconnected" = "Module Disconnected !";
+
+
+
+"Title_alarmsound" = "Alert tone";
+"Title_notysound" = "Notification tone";
+
+
+"Title_P_Unit" = "Pressure Unit";
+"Title_T_Unit" = "Temperture Unit";
+"Title_PH" = "Pressure High Limit";
+"Title_PL" = "Pressure Low Limit";
+"Title_TH" = "Temperture High Limit";
+"Initial" = " Initial ";
+"Close" = " Close ";
+
+
+
+"pressalarm" = "Tire Pressure Abnormalities ";
+"tempalarm" = "Tire Temperature Abnormalities ";
+"sensoralarm" = "Sensor Abnormalities ";
+
+"wheelLF" = "Left front wheel ";
+"wheelRF" = "Right front wheel ";
+"wheelLR" = "Left rear wheel ";
+"wheelRR" = "Right rear wheel ";
+"wheel0" = "First wheel ";
+"wheel1" = "Second Wheel ";
+"wheel2" = "Third wheel ";
+"wheel3" = "Fourth wheel ";
+"wheel4" = "Fifth wheel ";
+"wheel5" = "Sixth wheel ";
+
+"press" = "pressure ";
+"temp" = "temperature ";
+"sensor" = "sensor ";
+
+"pressH" = "too high!";
+"pressL" = "too low!";
+"tempH" = "too high!";
+"btL" = "battery low!";
+
+
+"CHwheelOK" = "Change Wheel success !";
+"CHwheelNG" = "Change Wheel fail !";
+
+
+
+"company" = "JOSN Electroic Co., Ltd.";
+"phone" = "Tel： (02)2299-6900";
+"mail" = "Mail： sales@josn.com.tw";
+"web" = "Web： www.josn.com.tw";
+"address" = "Address： 3F, No.12, Wugong 6th Rd., Xinzhuang Dist., New Taipei City, 242, Taiwan";
+

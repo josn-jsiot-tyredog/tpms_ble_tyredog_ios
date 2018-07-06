@@ -1,0 +1,70 @@
+/* 
+  Localizable.strings
+  blecenter
+
+  Created by JOSN on 2018/5/16.
+  Copyright © 2018年 JOSN. All rights reserved.
+*/
+
+
+
+
+"OK" = "  OK  ";
+
+
+"module_power" = "Bitte verbinde das Modul mit dem Stromkabel !";
+"module_connected" = "Modul verbunden !";
+"module_disconnected" = "Modul getrennt !";
+
+
+"Title_alarmsound" = "Alarm Ton";
+"Title_notysound" = "Benachrichtigung Ton";
+
+
+"Title_P_Unit" = "Druckeinheit";
+"Title_T_Unit" = "Temperatureinheit";
+"Title_PH" = "Oberes Druck Limit";
+"Title_PL" = "Unteres Druck Limit";
+"Title_TH" = "Temperatur Limit";
+"Initial" = " Voreinstellung ";
+"Close" = " zurück ";
+
+
+"pressalarm" = "Reifendruck Warnung ";
+"tempalarm" = "Temperatur Warnung ";
+"sensoralarm" = "Sensor Warnung ";
+
+"wheelLF" = "Rad links vorne";
+"wheelRF" = "Rad rechts vorne";
+"wheelLR" = "Rad links hinten";
+"wheelRR" = "Rad rechts hinten";
+"wheel0" = "First wheel";
+"wheel1" = "Second Wheel";
+"wheel2" = "Third wheel";
+"wheel3" = "Fourth wheel";
+"wheel4" = "Fifth wheel";
+"wheel5" = "Sixth wheel";
+
+"press" = "Druck ";
+"temp" = "Temperatur ";
+"sensor" = "Sensor ";
+
+"pressH" = "zu hoch!";
+"pressL" = "zu niedrig!";
+"tempH" = "zu hoch!";
+"btL" = "Batterie schwach!";
+
+
+
+"CHwheelOK" = "Set ok!";
+"CHwheelNG" = "Set Cancel!";
+
+
+
+"company" = "tpm GmbH";
+"phone" = "Tel： +49 (9099) 966 4966";
+"mail" = "Mail： sales@tiremoni.com";
+"web" = "Web： www.tiremoni.com";
+"address" = "Adresse： Gewerbepark 26, D-86687 Kaisheim";
+
+

@@ -1,0 +1,92 @@
+/* 
+  Localizable.strings
+  blecenter
+
+  Created by JOSN on 2018/5/16.
+  Copyright © 2018年 JOSN. All rights reserved.
+*/
+
+
+
+
+"OK" = "  確定  ";
+
+/*
+"module_power" = "請將模組接上電源!";
+"module_connected" = "模組已連結!";
+"module_disconnected" = "模組已中斷連結!";
+*/
+
+"module_power" = "Please connect module to power supply !";
+"module_connected" = "Module Connected !";
+"module_disconnected" = "Module Disconnected !";
+
+"Title_alarmsound" = "警報提示音";
+"Title_notysound" = "通知提示音";
+
+
+"Title_P_Unit" = "壓力單位";
+"Title_T_Unit" = "溫度單位";
+"Title_PH" = "過高壓力臨界值";
+"Title_PL" = "過低壓力臨界值";
+"Title_TH" = "過高溫度臨界值";
+"Initial" = " 初始值 ";
+"Close" = " 關閉 ";
+
+
+/*"pressalarm" = "輪胎胎壓異常 ";
+"tempalarm" = "輪胎胎溫異常 ";
+"sensoralarm" = "感測器異常 ";
+
+"wheelFL" = "左前輪 ";
+"wheelFR" = "右前輪 ";
+"wheelRL" = "左後輪 ";
+"wheelRR" = "右後輪 ";
+"wheel0" = "第一輪 ";
+"wheel1" = "第二輪 ";
+"wheel2" = "第三輪 ";
+"wheel3" = "第四輪 ";
+"wheel4" = "第五輪 ";
+"wheel5" = "第六輪 ";
+
+"press" = "胎壓 ";
+"temp" = "胎溫 ";
+"sensor" = "感測器 ";
+
+"pressH" = "高於警報值！";
+"pressL" = "低於警報值！";
+"tempH" = "高於警報值！";
+"btL" = "電量不足！";
+*/
+
+"pressalarm" = "Tire Pressure Abnormalities ";
+"tempalarm" = "Tire Temperature Abnormalities ";
+"sensoralarm" = "Sensor Abnormalities ";
+
+"wheelLF" = "Left front wheel ";
+"wheelRF" = "Right front wheel ";
+"wheelLR" = "Left rear wheel ";
+"wheelRR" = "Right rear wheel ";
+"wheel0" = "First wheel ";
+"wheel1" = "Second Wheel ";
+"wheel2" = "Third wheel ";
+"wheel3" = "Fourth wheel ";
+"wheel4" = "Fifth wheel ";
+"wheel5" = "Sixth wheel ";
+
+"press" = "pressure ";
+"temp" = "temperature ";
+"sensor" = "sensor ";
+
+"pressH" = "too high!";
+"pressL" = "too low!";
+"tempH" = "too high!";
+"btL" = "battery low!";
+
+"company" = "九晟電子股份有限公司";
+"phone" = "電話： (02)2299-6900";
+"mail" = "信箱： sales@josn.com.tw";
+"web" = "網站： www.josn.com.tw";
+"address" = "地址： 24891 新北市新莊區五工六路12號3樓";
+
+
