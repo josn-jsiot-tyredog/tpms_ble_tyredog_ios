@@ -415,6 +415,14 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
         centralManager = CBCentralManager(delegate: self, queue: queue)
         ///////////////////////////////////////////////////
 
+//        DispatchQueue.global().async {
+//            while (true) {
+//                let t = UIApplication.shared.backgroundTimeRemaining
+//                print("BackgroundTime\(t)")
+//                sleep(UInt32(1))
+//            }
+//        }
+        
     }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
@@ -1855,7 +1863,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     @IBAction func btn_logo_click(_ sender: Any) {
 //        beep_enable(times: 2)
 //        noty_test()
-//        ShowNoty_Alarm(wheel: 3,type: 1)
+        ShowNoty_Alarm(wheel: 3,type: 1)
     }
     @IBAction func btn_ant_click(_ sender: Any) {
 //        savepara()
@@ -2752,7 +2760,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
     func ShowNoty(notiyID: Int,TITLE: String, SUBTITLE: String, BODY: String, Icon: String, sound: String) {
         if #available(iOS 10.0, *) {
 
-            /*
+            
             NotyAlarm_cnt = NotyAlarm_cnt + 1
             let content = UNMutableNotificationContent()
             content.title = TITLE
@@ -2772,7 +2780,7 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             
             let request = UNNotificationRequest(identifier: String(notiyID), content: content, trigger: trigger)
             UNUserNotificationCenter.current().add(request, withCompletionHandler: nil)
-            */
+            
             
             if sound != "default" {
                 alarm_enable(sound: "\(sound)",times: 0)

@@ -1237,7 +1237,7 @@
 		062BCA1C201DB3020029F9E7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTIREMONI;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PJ9ZPPHBA;
 				INFOPLIST_FILE = blecenter/Info.plist;
@@ -1253,7 +1253,7 @@
 		062BCA1D201DB3020029F9E7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconTIREMONI;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9PJ9ZPPHBA;
 				INFOPLIST_FILE = blecenter/Info.plist;

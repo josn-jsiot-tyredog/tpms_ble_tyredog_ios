@@ -22,6 +22,10 @@
 	<true/>
 	<key>NSBluetoothPeripheralUsageDescription</key>
 	<string>Used to receiver data</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>Main</string>
 	<key>UIMainStoryboardFile</key>
