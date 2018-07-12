@@ -2474,10 +2474,10 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             SetLabColor(sender: PvalueLabel[1], color: UIColor.white)
         }
         if TempHFlag[i] == true {
-            btnImageChange(sender: tempButton[1],image: load_pressimage(status: "HIGH"))
+            btnImageChange(sender: tempButton[1],image: load_tempimage(status: "HIGH"))
             SetLabColor(sender: TvalueLabel[1], color: UIColor.red)
         } else {
-            btnImageChange(sender: tempButton[1],image: load_pressimage(status: "NORMAL"))
+            btnImageChange(sender: tempButton[1],image: load_tempimage(status: "NORMAL"))
             SetLabColor(sender: TvalueLabel[1], color: UIColor.white)
         }
         load_PTvalue(wheel: i)
@@ -2506,10 +2506,10 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             SetLabColor(sender: PvalueLabel[2], color: UIColor.white)
         }
         if TempHFlag[i] == true {
-            btnImageChange(sender: tempButton[2],image: load_pressimage(status: "HIGH"))
+            btnImageChange(sender: tempButton[2],image: load_tempimage(status: "HIGH"))
             SetLabColor(sender: TvalueLabel[2], color: UIColor.red)
         } else {
-            btnImageChange(sender: tempButton[2],image: load_pressimage(status: "NORMAL"))
+            btnImageChange(sender: tempButton[2],image: load_tempimage(status: "NORMAL"))
             SetLabColor(sender: TvalueLabel[2], color: UIColor.white)
         }
         load_PTvalue(wheel: i)
@@ -2538,10 +2538,10 @@ class ViewController: UIViewController, CBCentralManagerDelegate, CBPeripheralDe
             SetLabColor(sender: PvalueLabel[3], color: UIColor.white)
         }
         if TempHFlag[i] == true {
-            btnImageChange(sender: tempButton[3],image: load_pressimage(status: "HIGH"))
+            btnImageChange(sender: tempButton[3],image: load_tempimage(status: "HIGH"))
             SetLabColor(sender: TvalueLabel[3], color: UIColor.red)
         } else {
-            btnImageChange(sender: tempButton[3],image: load_pressimage(status: "NORMAL"))
+            btnImageChange(sender: tempButton[3],image: load_tempimage(status: "NORMAL"))
             SetLabColor(sender: TvalueLabel[3], color: UIColor.white)
         }
         load_PTvalue(wheel: i)
